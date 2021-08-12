@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef HIDENSEEKAI_WinVolume_generated_h
 #error "WinVolume.generated.h already included, missing '#pragma once' in WinVolume.h"
 #endif
 #define HIDENSEEKAI_WinVolume_generated_h
 
 #define HideNSeekAI_Source_HideNSeekAI_WinVolume_h_15_SPARSE_DATA
-#define HideNSeekAI_Source_HideNSeekAI_WinVolume_h_15_RPC_WRAPPERS
-#define HideNSeekAI_Source_HideNSeekAI_WinVolume_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define HideNSeekAI_Source_HideNSeekAI_WinVolume_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnActorBeginOverlap);
+
+
+#define HideNSeekAI_Source_HideNSeekAI_WinVolume_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnActorBeginOverlap);
+
+
 #define HideNSeekAI_Source_HideNSeekAI_WinVolume_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWinVolume(); \

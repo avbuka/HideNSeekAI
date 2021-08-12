@@ -13,6 +13,8 @@ class AHideNSeekAIGameMode : public AGameModeBase
 
 public:
 	AHideNSeekAIGameMode();
+	
+	void WinGameFunction();
 };
 
 

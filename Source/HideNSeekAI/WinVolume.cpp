@@ -2,6 +2,8 @@
 
 
 #include "WinVolume.h"
+#include "HideNSeekAICharacter.h"
+#include "HideNSeekAIGameMode.h"
 
 // Sets default values
 AWinVolume::AWinVolume()
@@ -11,6 +13,7 @@ AWinVolume::AWinVolume()
 	WinVolume = CreateDefaultSubobject<UBoxComponent>("WinVolume");
 	RootComponent = WinVolume;
 
+	WinVolume->OnComponentBeginOverlap.AddDynamic(this, &AWinVolume::OnActorBeginOverlap);
 
 }
 
@@ -26,5 +29,21 @@ void AWinVolume::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AWinVolume::OnActorBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	AHideNSeekAICharacter* Character = Cast<AHideNSeekAICharacter>(OtherActor);
+	
+	if (Character != nullptr)
+	{
+		AHideNSeekAIGameMode* GM=Cast<AHideNSeekAIGameMode>(GetWorld()->GetAuthGameMode());
+
+		if (GM != nullptr)
+		{
+			GM->WinGameFunction();
+		}
+
+	}
 }
 

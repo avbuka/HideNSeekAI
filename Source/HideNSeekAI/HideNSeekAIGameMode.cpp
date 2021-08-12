@@ -3,6 +3,7 @@
 #include "HideNSeekAIGameMode.h"
 #include "HideNSeekAICharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
 
 AHideNSeekAIGameMode::AHideNSeekAIGameMode()
 {
@@ -12,4 +13,11 @@ AHideNSeekAIGameMode::AHideNSeekAIGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+}
+
+void AHideNSeekAIGameMode::WinGameFunction()
+{
+	FName CurrentLevelName=GetWorld()->GetCurrentLevel()->;
+	UGameplayStatics::OpenLevel(GetWorld(),CurrentLevelName);
+
 }

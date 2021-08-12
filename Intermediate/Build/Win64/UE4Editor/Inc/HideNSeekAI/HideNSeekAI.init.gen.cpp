@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHideNSeekAI_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x42C670A0,
+				0xB87E4F7D,
 				0x5217D125,
 				METADATA_PARAMS(nullptr, 0)
 			};
