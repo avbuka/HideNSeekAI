@@ -17,7 +17,8 @@ AHideNSeekAIGameMode::AHideNSeekAIGameMode()
 
 void AHideNSeekAIGameMode::WinGameFunction()
 {
-	FName CurrentLevelName=GetWorld()->GetCurrentLevel()->;
-	UGameplayStatics::OpenLevel(GetWorld(),CurrentLevelName);
-
+	FString LevelName = GetWorld()->GetMapName();
+	LevelName.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
+	
+	UGameplayStatics::OpenLevel(GetWorld(),FName(LevelName));
 }
