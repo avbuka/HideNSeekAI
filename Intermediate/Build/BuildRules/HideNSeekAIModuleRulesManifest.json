@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Game Dev\\HideNSeekAI\\Source\\HideNSeekAI\\HideNSeekAI.Build.cs",
+		"D:\\Game Dev\\HideNSeekAI\\Source\\HideNSeekAI.Target.cs",
+		"D:\\Game Dev\\HideNSeekAI\\Source\\HideNSeekAIEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

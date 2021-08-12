@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HideNSeekAI",
+			"Path": "D:\\Game Dev\\HideNSeekAI\\Source\\HideNSeekAI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HideNSeekAIEditor",
+			"Path": "D:\\Game Dev\\HideNSeekAI\\Source\\HideNSeekAIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

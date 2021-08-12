@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HideNSeekAI-2265.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\HideNSeekAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\HideNSeekAI.cpp.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\HideNSeekAICharacter.cpp.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\HideNSeekAIGameMode.cpp.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\WinVolume.cpp.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\HideNSeekAI.init.gen.cpp.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\HideNSeekAICharacter.gen.cpp.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\HideNSeekAIGameMode.gen.cpp.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\WinVolume.gen.cpp.obj"
+"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\Default.rc2.res"
+/OUT:"D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\UE4Editor-HideNSeekAI-2265.lib"
+/INCLUDE:IMPLEMENT_MODULE_HideNSeekAI

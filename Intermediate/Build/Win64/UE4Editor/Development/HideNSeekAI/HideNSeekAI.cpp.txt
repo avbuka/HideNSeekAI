@@ -1,0 +1,2 @@
+D:\Game Dev\HideNSeekAI\Intermediate\Build\Win64\UE4Editor\Development\HideNSeekAI\Definitions.HideNSeekAI.h
+D:\Game Dev\HideNSeekAI\Source\HideNSeekAI\HideNSeekAI.h
