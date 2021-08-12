@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeHideNSeekAI_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB87E4F7D,
-				0x5217D125,
+				0xE5CD57A2,
+				0x73348336,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

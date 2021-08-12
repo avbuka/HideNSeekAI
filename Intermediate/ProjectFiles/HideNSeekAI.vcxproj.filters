@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HideNSeekAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2C3BA923-911B-439C-B027-ADFD35C97BEA}</UniqueIdentifier>
+      <UniqueIdentifier>{DBC3CA5C-D7EF-41F3-9668-B9B67690C765}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HideNSeekAI.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\HideNSeekAIEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F4E269B8-D8DB-46A6-8005-E58898B04F97}</UniqueIdentifier>
+      <UniqueIdentifier>{C94F4156-44EF-4D5C-8FC4-6E78D7C24CAC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +32,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HideNSeekAI">
-      <UniqueIdentifier>{2B2F77A9-8615-4669-8EE5-0AAC66D22689}</UniqueIdentifier>
+      <UniqueIdentifier>{3176DE4D-3CEB-4141-B61D-D9115B08E761}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HideNSeekAI\DistractionObject.cpp">
+      <Filter>Source\HideNSeekAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HideNSeekAI\DistractionObject.h">
+      <Filter>Source\HideNSeekAI</Filter>
+    </ClInclude>
     <None Include="..\..\Source\HideNSeekAI\HideNSeekAI.Build.cs">
       <Filter>Source\HideNSeekAI</Filter>
     </None>

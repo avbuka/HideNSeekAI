@@ -365,8 +365,8 @@ FodyWeavers.xsd
 #UE4
 
 Binaries/
-Config
 DerivedDataCache/
 Intermediate/
+Intermediate
 Saved/
 
